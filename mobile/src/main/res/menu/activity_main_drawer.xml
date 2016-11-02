@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Communities">
+    <menu>
+        <item
+            android:id="@+id/general"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="#general" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="#tech" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="#android" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="#ios" />
+    </menu>
+    </item>
+    <item android:title="Rooms">
+        <menu android:id="@+id/rooms">
+            <item android:title="Room 1"/>
+        </menu>
+    </item>
+            <item
+                android:id="@+id/invite"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Invite people" />
+
+</menu>
